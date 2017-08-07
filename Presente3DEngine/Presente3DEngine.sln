@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Presente3DEngine", "Presente3DEngine.vcxproj", "{18022A10-C179-4468-8523-64D02189362E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3139C748-B3CF-482B-9AFF-9AF2B1E63517}"
+	ProjectSection(SolutionItems) = preProject
+		helpers.cpp = helpers.cpp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageConversion", "..\ImageConversion\ImageConversion.vcxproj", "{2E46528A-B882-4FC4-A836-412D20180C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18022A10-C179-4468-8523-64D02189362E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18022A10-C179-4468-8523-64D02189362E}.Debug|Win32.Build.0 = Debug|Win32
+		{18022A10-C179-4468-8523-64D02189362E}.Release|Win32.ActiveCfg = Release|Win32
+		{18022A10-C179-4468-8523-64D02189362E}.Release|Win32.Build.0 = Release|Win32
+		{2E46528A-B882-4FC4-A836-412D20180C6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E46528A-B882-4FC4-A836-412D20180C6C}.Debug|Win32.Build.0 = Debug|Win32
+		{2E46528A-B882-4FC4-A836-412D20180C6C}.Release|Win32.ActiveCfg = Release|Win32
+		{2E46528A-B882-4FC4-A836-412D20180C6C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_UpdateFileVersion = True
+		BuildVersion_BuildVersioningStyle = Increment.Increment.Increment.Increment
+	EndGlobalSection
+EndGlobal

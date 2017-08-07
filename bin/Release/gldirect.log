@@ -1,0 +1,2148 @@
+GLD: (SYS) -> Logging Started
+GLD: (SYS) Driver           : SciTech GLDirect 5.0
+GLD: (SYS) Executable       : D:\Dropbox\Presente3D\Code\presente3d\trunk\bin\Release\Presente3DEngine.exe
+GLD: (SYS) DirectDraw device: Primary
+GLD: (SYS) Direct3D driver  : Direct3D Hardware Renderer
+GLD: (SYS) Rendering type   : Direct3D HW
+GLD: (SYS) Multithreaded    : Disabled
+GLD: (SYS) Display resources: Instanced
+GLD: (SYS) Buffer resources : Instanced
+GLD: (SYS) Vertex Shader    : 3.0
+GLD: (SYS) Pixel Shader     : 3.0
+GLD: (SYS) DirectX Version  : 9.0 or above
+GLD: (INF) 
+GLD: (INF) Pixel Formats:
+GLD: (INF)    visual  x  bf lv rg d st  r  g  b a  ax dp st accum buffs  ms
+GLD: (INF)  id dep cl sp sz l  ci b ro sz sz sz sz bf th cl  r  g  b  a ns b
+GLD: (INF) -----------------------------------------------------------------
+GLD: (INF) 0x01 32 wn  . 32  .  r .  .  8  8  8  .  . 16  .  .  .  .  .  . .
+GLD: (INF) 0x02 32 wn  . 32  .  r .  .  8  8  8  .  . 32  .  .  .  .  .  . .
+GLD: (INF) 0x03 32 wn  . 32  .  r .  .  8  8  8  .  . 32  8  .  .  .  .  . .
+GLD: (INF) 0x04 32 wn  . 32  .  r y  .  8  8  8  .  . 16  .  .  .  .  .  . .
+GLD: (INF) 0x05 32 wn  . 32  .  r y  .  8  8  8  .  . 32  .  .  .  .  .  . .
+GLD: (INF) 0x06 32 wn  . 32  .  r y  .  8  8  8  .  . 32  8  .  .  .  .  . .
+GLD: (INF) -----------------------------------------------------------------
+GLD: (INF) 
+GLD: (SYS) ChoosePixelFormat:
+GLD: (INF) Input pixel format for ChoosePixelFormat:
+GLD: (INF)    visual  x  bf lv rg d st  r  g  b a  ax dp st accum buffs  ms
+GLD: (INF)  id dep cl sp sz l  ci b ro sz sz sz sz bf th cl  r  g  b  a ns b
+GLD: (INF) -----------------------------------------------------------------
+GLD: (INF)   .  16 wn  . 16  .  r y  .  .  .  .  .  . 15  .  .  .  .  .  . .
+GLD: (INF) -----------------------------------------------------------------
+GLD: (INF) 
+GLD: (SYS) Pixel Format 4 chosen as best match
+GLD: (SYS) SetPixelFormat: PixelFormat 4 has been set
+GLD: (SYS) gldCreateContext for HDC=E0013616, ThreadId=2398
+GLD: (SYS) gldCreateContextBuffers for HDC=E0013616
+GLD: (INF) Input window E1528: w=32, h=32
+GLD: (INF) OS: Win2000/XP
+GLD: (SYS) [DDI Driver Level : 900]
+GLD: (INF) [Driver Description: NVIDIA GeForce GTX 285]
+GLD: (INF) [Driver file: nvd3dum.dll 8.17.12.8562]
+GLD: (INF) [VendorId: 0x10DE, DeviceId: 0x5E3, SubSysId: 0x11853842, Revision: 0xA1]
+GLD: (INF) Can Scissor: Yes
+GLD: (INF) Window: w=32, h=32 (windowed)
+GLD: (INF) HW TnL: Enabled
+GLD: (SYS) gldCreateContext succeeded for HGLRC=1
+GLD: (INF) GetProcAddress: wglGetExtensionsStringARB (Failed)
+GLD: (SYS) gldDeleteContext: Deleting context HGLRC=1, ThreadId=2398
+GLD: (SYS) ChoosePixelFormat:
+GLD: (INF) Input pixel format for ChoosePixelFormat:
+GLD: (INF)    visual  x  bf lv rg d st  r  g  b a  ax dp st accum buffs  ms
+GLD: (INF)  id dep cl sp sz l  ci b ro sz sz sz sz bf th cl  r  g  b  a ns b
+GLD: (INF) -----------------------------------------------------------------
+GLD: (INF)   .  24 wn  . 24  .  r y  .  .  .  .  8  . 24  8  .  .  .  .  . .
+GLD: (INF) -----------------------------------------------------------------
+GLD: (INF) 
+GLD: (SYS) Pixel Format 6 chosen by default
+GLD: (SYS) SetPixelFormat: PixelFormat 6 has been set
+GLD: (SYS) gldCreateContext for HDC=FF011D82, ThreadId=2398
+GLD: (SYS) gldCreateContextBuffers for HDC=FF011D82
+GLD: (INF) Input window 101528: w=1600, h=900
+GLD: (INF) OS: Win2000/XP
+GLD: (SYS) [DDI Driver Level : 900]
+GLD: (INF) [Driver Description: NVIDIA GeForce GTX 285]
+GLD: (INF) [Driver file: nvd3dum.dll 8.17.12.8562]
+GLD: (INF) [VendorId: 0x10DE, DeviceId: 0x5E3, SubSysId: 0x11853842, Revision: 0xA1]
+GLD: (INF) Can Scissor: Yes
+GLD: (INF) Window: w=1600, h=900 (windowed)
+GLD: (INF) HW TnL: Enabled
+GLD: (SYS) gldCreateContext succeeded for HGLRC=1
+GLD: (INF) GetProcAddress: wglSwapIntervalEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetExtensionsStringARB (Failed)
+GLD: (INF) GetProcAddress: wglGetExtensionsStringEXT (Failed)
+GLD: (INF) GetProcAddress: wglSetStereoEmitterState3DL (Failed)
+GLD: (INF) GetProcAddress: wglBlitContextFramebufferAMD (Failed)
+GLD: (INF) GetProcAddress: wglCreateAssociatedContextAMD (Failed)
+GLD: (INF) GetProcAddress: wglCreateAssociatedContextAttribsAMD (Failed)
+GLD: (INF) GetProcAddress: wglDeleteAssociatedContextAMD (Failed)
+GLD: (INF) GetProcAddress: wglGetContextGPUIDAMD (Failed)
+GLD: (INF) GetProcAddress: wglGetCurrentAssociatedContextAMD (Failed)
+GLD: (INF) GetProcAddress: wglGetGPUIDsAMD (Failed)
+GLD: (INF) GetProcAddress: wglGetGPUInfoAMD (Failed)
+GLD: (INF) GetProcAddress: wglMakeAssociatedContextCurrentAMD (Failed)
+GLD: (INF) GetProcAddress: wglCreateBufferRegionARB (Failed)
+GLD: (INF) GetProcAddress: wglDeleteBufferRegionARB (Failed)
+GLD: (INF) GetProcAddress: wglRestoreBufferRegionARB (Failed)
+GLD: (INF) GetProcAddress: wglSaveBufferRegionARB (Failed)
+GLD: (INF) GetProcAddress: wglCreateContextAttribsARB (Failed)
+GLD: (INF) GetProcAddress: wglGetExtensionsStringARB (Failed)
+GLD: (INF) GetProcAddress: wglGetCurrentReadDCARB (Failed)
+GLD: (INF) GetProcAddress: wglMakeContextCurrentARB (Failed)
+GLD: (INF) GetProcAddress: wglCreatePbufferARB (Failed)
+GLD: (INF) GetProcAddress: wglDestroyPbufferARB (Failed)
+GLD: (INF) GetProcAddress: wglGetPbufferDCARB (Failed)
+GLD: (INF) GetProcAddress: wglQueryPbufferARB (Failed)
+GLD: (INF) GetProcAddress: wglReleasePbufferDCARB (Failed)
+GLD: (INF) GetProcAddress: wglChoosePixelFormatARB (Failed)
+GLD: (INF) GetProcAddress: wglGetPixelFormatAttribfvARB (Failed)
+GLD: (INF) GetProcAddress: wglGetPixelFormatAttribivARB (Failed)
+GLD: (INF) GetProcAddress: wglBindTexImageARB (Failed)
+GLD: (INF) GetProcAddress: wglReleaseTexImageARB (Failed)
+GLD: (INF) GetProcAddress: wglSetPbufferAttribARB (Failed)
+GLD: (INF) GetProcAddress: wglBindDisplayColorTableEXT (Failed)
+GLD: (INF) GetProcAddress: wglCreateDisplayColorTableEXT (Failed)
+GLD: (INF) GetProcAddress: wglDestroyDisplayColorTableEXT (Failed)
+GLD: (INF) GetProcAddress: wglLoadDisplayColorTableEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetExtensionsStringEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetCurrentReadDCEXT (Failed)
+GLD: (INF) GetProcAddress: wglMakeContextCurrentEXT (Failed)
+GLD: (INF) GetProcAddress: wglCreatePbufferEXT (Failed)
+GLD: (INF) GetProcAddress: wglDestroyPbufferEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetPbufferDCEXT (Failed)
+GLD: (INF) GetProcAddress: wglQueryPbufferEXT (Failed)
+GLD: (INF) GetProcAddress: wglReleasePbufferDCEXT (Failed)
+GLD: (INF) GetProcAddress: wglChoosePixelFormatEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetPixelFormatAttribfvEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetPixelFormatAttribivEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetSwapIntervalEXT (Failed)
+GLD: (INF) GetProcAddress: wglSwapIntervalEXT (Failed)
+GLD: (INF) GetProcAddress: wglGetDigitalVideoParametersI3D (Failed)
+GLD: (INF) GetProcAddress: wglSetDigitalVideoParametersI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetGammaTableI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetGammaTableParametersI3D (Failed)
+GLD: (INF) GetProcAddress: wglSetGammaTableI3D (Failed)
+GLD: (INF) GetProcAddress: wglSetGammaTableParametersI3D (Failed)
+GLD: (INF) GetProcAddress: wglDisableGenlockI3D (Failed)
+GLD: (INF) GetProcAddress: wglEnableGenlockI3D (Failed)
+GLD: (INF) GetProcAddress: wglGenlockSampleRateI3D (Failed)
+GLD: (INF) GetProcAddress: wglGenlockSourceDelayI3D (Failed)
+GLD: (INF) GetProcAddress: wglGenlockSourceEdgeI3D (Failed)
+GLD: (INF) GetProcAddress: wglGenlockSourceI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetGenlockSampleRateI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetGenlockSourceDelayI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetGenlockSourceEdgeI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetGenlockSourceI3D (Failed)
+GLD: (INF) GetProcAddress: wglIsEnabledGenlockI3D (Failed)
+GLD: (INF) GetProcAddress: wglQueryGenlockMaxSourceDelayI3D (Failed)
+GLD: (INF) GetProcAddress: wglAssociateImageBufferEventsI3D (Failed)
+GLD: (INF) GetProcAddress: wglCreateImageBufferI3D (Failed)
+GLD: (INF) GetProcAddress: wglDestroyImageBufferI3D (Failed)
+GLD: (INF) GetProcAddress: wglReleaseImageBufferEventsI3D (Failed)
+GLD: (INF) GetProcAddress: wglDisableFrameLockI3D (Failed)
+GLD: (INF) GetProcAddress: wglEnableFrameLockI3D (Failed)
+GLD: (INF) GetProcAddress: wglIsEnabledFrameLockI3D (Failed)
+GLD: (INF) GetProcAddress: wglQueryFrameLockMasterI3D (Failed)
+GLD: (INF) GetProcAddress: wglBeginFrameTrackingI3D (Failed)
+GLD: (INF) GetProcAddress: wglEndFrameTrackingI3D (Failed)
+GLD: (INF) GetProcAddress: wglGetFrameUsageI3D (Failed)
+GLD: (INF) GetProcAddress: wglQueryFrameTrackingI3D (Failed)
+GLD: (INF) GetProcAddress: wglCopyImageSubDataNV (Failed)
+GLD: (INF) GetProcAddress: wglCreateAffinityDCNV (Failed)
+GLD: (INF) GetProcAddress: wglDeleteDCNV (Failed)
+GLD: (INF) GetProcAddress: wglEnumGpuDevicesNV (Failed)
+GLD: (INF) GetProcAddress: wglEnumGpusFromAffinityDCNV (Failed)
+GLD: (INF) GetProcAddress: wglEnumGpusNV (Failed)
+GLD: (INF) GetProcAddress: wglBindVideoDeviceNV (Failed)
+GLD: (INF) GetProcAddress: wglEnumerateVideoDevicesNV (Failed)
+GLD: (INF) GetProcAddress: wglQueryCurrentContextNV (Failed)
+GLD: (INF) GetProcAddress: wglBindSwapBarrierNV (Failed)
+GLD: (INF) GetProcAddress: wglJoinSwapGroupNV (Failed)
+GLD: (INF) GetProcAddress: wglQueryFrameCountNV (Failed)
+GLD: (INF) GetProcAddress: wglQueryMaxSwapGroupsNV (Failed)
+GLD: (INF) GetProcAddress: wglQuerySwapGroupNV (Failed)
+GLD: (INF) GetProcAddress: wglResetFrameCountNV (Failed)
+GLD: (INF) GetProcAddress: wglAllocateMemoryNV (Failed)
+GLD: (INF) GetProcAddress: wglFreeMemoryNV (Failed)
+GLD: (INF) GetProcAddress: wglBindVideoImageNV (Failed)
+GLD: (INF) GetProcAddress: wglGetVideoDeviceNV (Failed)
+GLD: (INF) GetProcAddress: wglGetVideoInfoNV (Failed)
+GLD: (INF) GetProcAddress: wglReleaseVideoDeviceNV (Failed)
+GLD: (INF) GetProcAddress: wglReleaseVideoImageNV (Failed)
+GLD: (INF) GetProcAddress: wglSendPbufferToVideoNV (Failed)
+GLD: (INF) GetProcAddress: wglGetMscRateOML (Failed)
+GLD: (INF) GetProcAddress: wglGetSyncValuesOML (Failed)
+GLD: (INF) GetProcAddress: wglSwapBuffersMscOML (Failed)
+GLD: (INF) GetProcAddress: wglSwapLayerBuffersMscOML (Failed)
+GLD: (INF) GetProcAddress: wglWaitForMscOML (Failed)
+GLD: (INF) GetProcAddress: wglWaitForSbcOML (Failed)
+GLD: (INF) GetProcAddress: wglGetExtensionsStringARB (Failed)
+GLD: (INF) GetProcAddress: glActiveTextureARB (OK)
+GLD: (INF) GetProcAddress: glClientActiveTextureARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1dARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1dvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1fARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1fvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1iARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1ivARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1sARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord1svARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2dARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2dvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2fARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2fvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2iARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2ivARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2sARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord2svARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3dARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3dvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3fARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3fvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3iARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3ivARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3sARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord3svARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4dARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4dvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4fARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4fvARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4iARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4ivARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4sARB (OK)
+GLD: (INF) GetProcAddress: glMultiTexCoord4svARB (OK)
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (ERR) FindEffect failed
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) ~~ imm: gldSuperPrimitive! ~~
+GLD: (SYS) gldDeleteContext: Deleting context HGLRC=1, ThreadId=2398
+GLD: (SYS) <- Logging Ended

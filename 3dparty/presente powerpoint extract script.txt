@@ -1,0 +1,13 @@
+Sub PrintShapesToPng()
+    Dim ap As Presentation: Set ap = ActivePresentation
+    Dim sl As Slide
+    Dim shGroup As ShapeRange
+    For Each sl In ap.Slides
+        ActiveWindow.View.GotoSlide (sl.SlideIndex)
+        sl.Shapes.SelectAll
+        Set shGroup = ActiveWindow.Selection.ShapeRange
+        shGroup.Export "D:\test" & "\Slide" & sl.SlideIndex & ".png", _
+                            ppShapeFormatPNG, 0, 0, ppRelativeToSlide
+    Next
+End Sub
+

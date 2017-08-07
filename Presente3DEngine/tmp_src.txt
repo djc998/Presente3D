@@ -1,0 +1,140 @@
+
+
+/*
+void RenderCore::BuildFont(GLvoid)								// Build Our Bitmap Font
+{
+	HFONT	font;										// Windows Font ID
+	HFONT	oldfont;									// Used For Good House Keeping
+
+	base = glGenLists(96);								// Storage For 96 Characters
+
+	font = CreateFont(	-24,							// Height Of Font
+						0,								// Width Of Font
+						0,								// Angle Of Escapement
+						0,								// Orientation Angle
+						FW_BOLD,						// Font Weight
+						FALSE,							// Italic
+						FALSE,							// Underline
+						FALSE,							// Strikeout
+						ANSI_CHARSET,					// Character Set Identifier
+						OUT_TT_PRECIS,					// Output Precision
+						CLIP_DEFAULT_PRECIS,			// Clipping Precision
+						ANTIALIASED_QUALITY,			// Output Quality
+						FF_DONTCARE|DEFAULT_PITCH,		// Family And Pitch
+						"Courier New");					// Font Name
+
+	oldfont = (HFONT)SelectObject(hDC, font);           // Selects The Font We Want
+	wglUseFontBitmaps(hDC, 32, 96, base);				// Builds 96 Characters Starting At Character 32
+	SelectObject(hDC, oldfont);							// Selects The Font We Want
+	DeleteObject(font);								// Address Of Buffer To Recieve Data
+}
+
+GLvoid KillFont(GLvoid)									// Delete The Font
+{
+  //glDeleteLists(base, 256);								// Delete All 256 Characters
+}
+
+void RenderCore::glPrint(const char *fmt, ...)					// Custom GL "Print" Routine
+{
+	char		text[256];								// Holds Our String
+	va_list		ap;										// Pointer To List Of Arguments
+
+	if (fmt == NULL)									// If There's No Text
+		return;											// Do Nothing
+
+	va_start(ap, fmt);									// Parses The String For Variables
+	    vsprintf(text, fmt, ap);						// And Converts Symbols To Actual Numbers
+	va_end(ap);											// Results Are Stored In Text
+
+	glPushAttrib(GL_LIST_BIT);							// Pushes The Display List Bits
+	glListBase(base);								// Sets The Base Character to 32
+	glCallLists(strlen(text), GL_UNSIGNED_BYTE, text);	// Draws The Display List Text
+	glPopAttrib();										// Pops The Display List Bits
+}
+
+void RenderCore::RenderText(PresenteShape& shape){
+//					// Reset The Current Modelview Matrix
+	//glTranslatef(-1.0f,1.0f,-1.73f);						// Move One Unit Into The Screen
+
+	float top  = (float)shape.GetTop();
+	float left = (float)shape.GetLeft();
+	float screen_w = data->GetWidth();
+	float screen_h = data->GetHeight();
+
+	float relative_left = (left / screen_h) * 2 - 1;	
+	float relative_top  = 1 - (top  / screen_w) * 2;
+	
+	glColor3f(0, 0, 0);
+	glTranslatef(relative_left, relative_top, -1.73f);					// Center Our Text On The Screen
+	
+	glPrint("%s", text);						// Print GL Text To The Screen
+	
+	
+	//glLoadIdentity();									// Reset The Current Modelview Matrix
+	glColor3f(0, 0, 0);
+	glTranslatef(0.0f,0.0f,-10.0f);						// Move One Unit Into The Screen
+	const char* text = shape.GetText().c_str();
+ 	glPrint("%s", text);	
+}*/
+/*
+void RenderCore::RenderRectangle(PresenteShape& shape){
+	/// calculate color
+	int color = shape.GetForeColor();
+	float r = (color & 255) / 255.0f;
+	float g = ((color >> 8) & 255) / 255.0f;
+	float b = ((color >> 16) & 255) / 255.0f;
+	
+	float top  = (float)shape.GetTop();
+	float left = (float)shape.GetLeft();
+	float w    = (float)shape.GetWidth();
+	float h    = (float)shape.GetHeight();
+
+	float screen_w = data->GetWidth();
+	float screen_h = data->GetHeight();
+
+	float relative_left = (left / screen_h) * 2 - 1;
+	float width		    = w / screen_w * 2;
+
+	float relative_top  = 1 - (top  / screen_w) * 2 ;		
+	float height	    = h / screen_h * 2;
+	
+	//glTranslatef(0.0f,0.0f, -1.73f);					// Move Left 1.5 Units And Into The Screen 6.0
+	glLoadIdentity();	
+	glBegin(GL_QUADS);									// Draw A Quad				
+		glColor3f(r, g, b);
+		glVertex3f(relative_left, relative_top,                -1.73f);					// Top Left
+		glVertex3f(relative_left+width, relative_top,          -1.73f);					// Top Right
+		glVertex3f(relative_left+width, relative_top - height, -1.73f);					// Bottom Right		
+		glVertex3f(relative_left,  relative_top - height,	   -1.73f);					// Bottom Left
+		
+	glEnd();		
+}*/
+/*
+void RenderCore::RenderRectangle(PresenteShape& shape){
+	/// calculate color
+	int color = shape.GetForeColor();
+	float r = (color & 255) / 255.0f;
+	float g = ((color >> 8) & 255) / 255.0f;
+	float b = ((color >> 16) & 255) / 255.0f;
+	
+
+	float scene_h = data->GetHeight();
+
+	float top  = scene_h - (float)shape.GetTop();
+	float left = (float)shape.GetLeft();
+	float w    = (float)shape.GetWidth();
+	float h    = scene_h - (float)shape.GetHeight();
+	
+	
+
+	glLoadIdentity();
+	glTranslatef(0.0f,0.0f, -1500.0f);					// Move Left 1.5 Units And Into The Screen 6.0		
+	float z = 0.0f;
+	glBegin(GL_QUADS);									// Draw A Quad				
+		glColor3f(r, g, b);
+		glVertex3f(left,     top, 0);					// Top Left
+		glVertex3f(left + w, top, 0);					// Top Right
+		glVertex3f(left + w, top + h, 0);					// Bottom Right		
+		glVertex3f(left,     top + h, 0);					// Bottom Left		
+	glEnd();		
+}*/

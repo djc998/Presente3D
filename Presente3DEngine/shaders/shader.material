@@ -1,0 +1,538 @@
+vertex_program   DirectionSpecularLight_VertexShader       glsl { source glsl/direction_specular_light.vert }
+fragment_program DirectionSpecularLight_FragShader         glsl { source glsl/direction_specular_light.frag }
+fragment_program DirectionSpecularLightDepthMap_FragShader glsl { source glsl/direction_specular_light_depthmap.frag }
+
+vertex_program   NormalColor_VertexShader                  glsl { source glsl/normal_color.vert }
+fragment_program NormalColor_FragShader                    glsl { source glsl/normal_color.frag }
+
+vertex_program   VertexColor_VertexShader                  glsl { source glsl/vertex_color.vert }
+fragment_program VertexColor_FragShader                    glsl { source glsl/vertex_color.frag }
+
+vertex_program   DiffuseTexture_VertexShader               glsl { source glsl/diffuse_texture.vert }
+fragment_program DiffuseTexture_FragShader                 glsl { source glsl/diffuse_texture.frag }
+fragment_program DiffuseTextureDepthMap_FragShader         glsl { source glsl/diffuse_texture_depthmap.frag }
+
+fragment_program DebugMaterialColor_FragShader             glsl { source glsl/debugColor.frag }
+
+fragment_program Interlace_FragShader                      glsl { source glsl/interlace.frag }
+fragment_program DimencoHeader_FragShader                  glsl { source glsl/dimencoheader_texture.frag }
+
+
+
+/************************************************************************************************
+*
+************************************************************************************************/
+//////////////////////////////////////////
+// Background Material
+//////////////////////////////////////////
+material BackgroundMaterial
+{
+	technique default
+	{
+		scheme default
+
+		pass default
+		{
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			lighting    off
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+
+			}			
+
+			fragment_program_ref DiffuseTexture_FragShader
+			{
+			    
+			}
+		}
+	}
+
+	technique dimenco
+	{
+		scheme dimenco
+
+		pass default
+		{
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			lighting    off
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+
+			}
+
+			fragment_program_ref DiffuseTexture_FragShader
+			{
+			    
+			}
+		}
+
+		pass interlace
+		{
+			//Just interlacing
+			depth_check off
+			depth_write off
+			lighting    off
+			scene_blend alpha_blend
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+			
+			}	
+
+			fragment_program_ref Interlace_FragShader
+			{
+			    
+			}
+		}
+	}
+
+
+	technique dimenco_depthmap
+	{
+		scheme dimenco_depthmap
+
+		pass default
+		{
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			lighting    off
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+			
+			}	
+			
+			fragment_program_ref DebugMaterialColor_FragShader
+			{
+			    param_named color_value float4   0.0   0.0   0.0   1.0
+			}
+			
+			texture_unit
+			{
+				texture test.png
+			}			
+		}
+
+		pass interlace
+		{
+			//Just interlacing
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			lighting    off
+
+			vertex_program_ref VertexColor_VertexShader
+			{
+			
+			}	
+		
+			fragment_program_ref Interlace_FragShader
+			{
+			    
+			}
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Diffuse Texture Material
+//////////////////////////////////////////
+material Presente3D_DiffuseTextureMaterial
+{
+	technique default
+	{
+		scheme default
+
+		pass default
+		{
+			//depth_check on
+			scene_blend alpha_blend
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+			
+			}	
+			
+			fragment_program_ref DiffuseTexture_FragShader
+			{
+			    
+			}
+			
+			texture_unit
+			{
+				texture test.png
+			}
+		}		
+	}
+	
+	technique dimenco
+	{
+		scheme dimenco
+
+		pass default
+		{
+			//depth_check on
+			scene_blend alpha_blend
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+			
+			}	
+			
+			fragment_program_ref DiffuseTexture_FragShader
+			{
+			    
+			}
+			
+			texture_unit
+			{
+				texture test.png
+			}
+		}
+
+		pass interlace
+		{
+			//Just interlacing
+			depth_write off
+			scene_blend alpha_blend
+
+			vertex_program_ref VertexColor_VertexShader
+			{
+			
+			}	
+
+			fragment_program_ref Interlace_FragShader
+			{
+			    
+			}
+		}			
+	}		
+
+
+	technique dimenco_depthmap
+	{
+        scheme dimenco_depthmap
+	
+		pass default
+		{
+			//depth_check on
+			scene_blend alpha_blend
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+			
+			}	
+
+			fragment_program_ref DiffuseTextureDepthMap_FragShader
+			{
+				// far_clipping_plane has to be passed from the code, defaulting to 1000.0f though
+			    param_named far_clipping_plane float 1000.0    
+			}
+			
+			texture_unit
+			{
+				texture test.png
+			}
+		}
+		
+		pass interlace
+		{
+			//Just interlacing
+			depth_write off
+			scene_blend alpha_blend
+		
+			vertex_program_ref VertexColor_VertexShader
+			{
+			
+			}	
+		
+			fragment_program_ref Interlace_FragShader
+			{
+			    
+			}
+		}		
+	}		
+}
+
+
+//////////////////////////////////////////
+// Diffuse Specular Light Material
+//////////////////////////////////////////
+material Presente3D_DirectionSpecularLightMaterial
+{
+	technique default
+	{
+		scheme default
+
+		pass default
+		{
+			vertex_program_ref DirectionSpecularLight_VertexShader
+			{
+				param_named_auto eyePosition camera_position_object_space
+			}			
+		
+			fragment_program_ref DirectionSpecularLight_FragShader
+			{
+			    
+			}
+		}
+	}
+	
+	technique dimenco
+	{
+        scheme dimenco
+	
+		pass default
+		{
+			vertex_program_ref DirectionSpecularLight_VertexShader
+			{
+				param_named_auto eyePosition camera_position_object_space
+			}			
+		
+			fragment_program_ref DirectionSpecularLight_FragShader
+			{
+			    
+			}
+		}
+
+		pass interlace
+		{
+			//Just interlacing
+			depth_write off
+			scene_blend alpha_blend
+
+			vertex_program_ref VertexColor_VertexShader
+			{
+			
+			}	
+
+			fragment_program_ref Interlace_FragShader
+			{
+			    
+			}
+		}	
+	}
+	
+	technique dimenco_depthmap
+	{
+        scheme dimenco_depthmap
+	
+		pass default
+		{ 
+			vertex_program_ref DirectionSpecularLight_VertexShader
+			{
+				param_named_auto eyePosition camera_position_object_space
+			}			
+		
+			fragment_program_ref DirectionSpecularLightDepthMap_FragShader
+			{
+				// far_clipping_plane has to be passed from the code, defaulting to 1000.0f though
+			    param_named far_clipping_plane float 1000.0
+			}
+		}
+
+		pass interlace
+		{
+			//Just interlacing
+			depth_write off
+			scene_blend alpha_blend
+
+			vertex_program_ref VertexColor_VertexShader
+			{
+			
+			}	
+
+			fragment_program_ref Interlace_FragShader
+			{
+			    
+			}
+		}	
+	}
+}
+
+
+//////////////////////////////////////////
+// Dimenco Header Material
+//////////////////////////////////////////
+material Presente3D_DimencoHeaderMaterial
+{
+	technique default
+	{
+		scheme default
+
+		pass default
+		{
+			depth_write off
+			depth_check off
+			//scene_blend alpha_blend
+			scene_blend alpha_blend
+
+			vertex_program_ref DiffuseTexture_VertexShader
+			{
+			
+			}			
+		
+			fragment_program_ref DimencoHeader_FragShader
+			{
+				// Defaulting to some arbitrary value...
+			    param_named viewport_height int   100
+			}
+
+			texture_unit
+			{
+				texture test.png
+			}
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Debug Material (black)
+//////////////////////////////////////////
+material Presente3D_DebugMaterialBlack
+{
+	technique default
+	{
+		pass default
+		{
+			vertex_program_ref VertexColor_VertexShader
+			{
+
+			}
+
+			fragment_program_ref DebugMaterialColor_FragShader
+			{
+			    param_named color_value float4   0.0   0.0   0.0   1.0
+			}
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Debug Material (red)
+//////////////////////////////////////////
+material Presente3D_DebugMaterialRed
+{
+	technique default
+	{
+		pass default
+		{
+			vertex_program_ref VertexColor_VertexShader
+			{
+
+			}
+
+			fragment_program_ref DebugMaterialColor_FragShader
+			{
+			    param_named color_value float4   1.0   0.0   0.0   1.0
+			}
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Debug Material (green)
+//////////////////////////////////////////
+material Presente3D_DebugMaterialGreen
+{
+	technique default
+	{
+		pass default
+		{
+			vertex_program_ref VertexColor_VertexShader
+			{
+
+			}
+
+			fragment_program_ref DebugMaterialColor_FragShader
+			{
+			    param_named color_value float4   0.0   1.0   0.0   1.0
+			}
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Debug Material (blue)
+//////////////////////////////////////////
+material Presente3D_DebugMaterialBlue
+{
+	technique default
+	{
+		pass default
+		{
+			vertex_program_ref VertexColor_VertexShader
+			{
+
+			}			
+
+			fragment_program_ref DebugMaterialColor_FragShader
+			{
+			    param_named color_value float4   0.0   0.0   1.0   1.0
+			}
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Simple Normal Color Material
+//////////////////////////////////////////
+material Presente3D_NormalColorMaterial
+{
+	technique default
+	{
+		pass default
+		{
+			depth_check on
+
+			fragment_program_ref NormalColor_FragShader
+			{
+			    
+			}
+			vertex_program_ref NormalColor_VertexShader
+			{
+
+			}			
+		}
+	}
+}
+
+
+//////////////////////////////////////////
+// Simple Vertex Color Material
+//////////////////////////////////////////
+material Presente3D_VertexColorMaterial
+{
+	technique default
+	{
+		pass default
+		{
+			//State: D3DRS_CULLMODE, Value : D3DCULL_NONE
+			//cull_hardware none
+			//cull_software none
+			depth_check on
+			//scene_blend alpha_blend
+	
+			fragment_program_ref VertexColor_FragShader
+			{
+			    
+			}
+			vertex_program_ref VertexColor_VertexShader
+			{
+			}			
+		}
+	}
+}
